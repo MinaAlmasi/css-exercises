@@ -1,1 +1,14 @@
-/* Add CSS Styling */
+/* best practice: add grouping b4 individual */
+.click, .no_click {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.click {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.no_click {
+    background-color: hsl(56, 100%, 50%);
+}
